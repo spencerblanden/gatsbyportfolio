@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Carousel from "../components/carousel"
 import Intro from "../components/intro"
-import Header from "../components/Header"
+import Header from "../components/header"
 
 const IndexPage = () => (
   <Layout>
