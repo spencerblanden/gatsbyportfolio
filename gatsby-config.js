@@ -15,6 +15,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    'gatsby-plugin-netlify-identity-widget',
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
