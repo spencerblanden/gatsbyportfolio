@@ -6,7 +6,7 @@ import Card from "./card.js"
 import family from "../images/family.jpeg"
 import ehealth from "../images/ehealth.png"
 import ga from "../images/ga.png"
-import aptlife from "../images/aptlife.jpg"
+import aptlife from "../images/aptlife2.jpg"
 
 
 
