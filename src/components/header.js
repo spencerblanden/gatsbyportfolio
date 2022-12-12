@@ -17,7 +17,7 @@ const Header = () => (
       <a href="https://github.com/spencerblanden">
         <FontAwesomeIcon icon={faGithub} className='iconGH' />
      </a>
-     <a href="/https://www.linkedin.com/in/spencer-blanden/">
+     <a href="https://www.linkedin.com/in/spencer-blanden/">
        <FontAwesomeIcon icon={faLinkedin} className='iconLI'/>
      </a>
      <a href="https://youtu.be/dQw4w9WgXcQ">
