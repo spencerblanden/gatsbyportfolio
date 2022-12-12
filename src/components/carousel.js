@@ -3,7 +3,13 @@ import "./component.css"
 
 import Card from "./card.js"
 
-import were from "../images/were.jpeg"
+import family from "../images/family.jpeg"
+import ehealth from "../images/ehealth.png"
+import ga from "../images/ga.png"
+import aptlife from "../images/aptlife2.jpg"
+
+
+
 
 const Carousel = () => {
     // useEffect (() => {
@@ -62,12 +68,12 @@ const Carousel = () => {
 
 
     return (
-        <div class="carousel">
+        <div className="carousel">
         <div className="cardContainer">
-           <Card className="slide blue-light" title="Allow me to introduce myself" blurb="I live in Liberty Hill, TX with my wife, daughter, son, and our two dogs." img={were} alt="us" ></Card>
-           <Card className="slide red-light" title="Allow me to introduce myself" blurb="I live in Liberty Hill, TX with my wife, daughter, son, and our two dogs." img={were} alt="us"></Card>
-           <Card className="slide green-light"></Card>
-           <Card className="slide purple-light"></Card>
+           <Card className="slide blue-dark" title="Most important, my family" blurb="I live in Liberty Hill, TX with my wife, daughter, son, and our two dogs." img={family} alt="us" ></Card>
+           <Card className="slide blue" title="My most recent role" blurb="At eHealth, I was part of the top of funnel team working to help make medicare accessible to those that need it." img={ehealth}></Card>
+           <Card className="slide blue-lighter" title="Before that, Coding Academy" blurb="Software development was a passion of mine for a long time, so I left me job and attended a bootcamp." img={ga}></Card>
+           <Card className="slide blue-light" title='Got started by giving back' blurb='I started my professional career with 6 years working in the non-profit sector.' img={aptlife}></Card>
         </div>
         </div>
     )
