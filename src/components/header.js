@@ -1,20 +1,29 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import "./component.css"
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faQuestion } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-const Header = ({ siteTitle }) => (
-  <header >
-    <div classname="header">
-    <Link
-      to="/"
-     activeStyle={{color: "dark-blue",
-    textDecoration: "none"}}
-    >
-      Portfolio
-    </Link>
+
+const Header = () => (
+  <header className="header">
+    <div className="headerLeft">
+      <a href="/">
+        <h1>SB</h1>
+      </a>
     </div>
-    <h1>SB</h1>
+    <div className="headerRight">
+      <a href="https://github.com/spencerblanden">
+        <FontAwesomeIcon icon={faGithub} className='iconGH' />
+     </a>
+     <a href="/https://www.linkedin.com/in/spencer-blanden/">
+       <FontAwesomeIcon icon={faLinkedin} className='iconLI'/>
+     </a>
+     <a href="https://youtu.be/dQw4w9WgXcQ">
+       <FontAwesomeIcon icon={faQuestion}  className='iconQ'/>
+     </a>
+    </div>
   </header>
 )
 

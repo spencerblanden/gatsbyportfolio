@@ -23,11 +23,20 @@ div.card {
 .off-black {
   background-color: ;
 }
-.blue-dark {
+.blue-darker {
   background-color: #1565c0;
+}
+.blue-dark {
+  background-color: #1e88e5;
+}
+.blue {
+  background-color: #2196f3;
 }
 .blue-light {
   background-color: #90caf9;
+}
+.blue-lighter {
+  background-color: #42a5f5;
 }
 .green-light {
   background-color: #a5d6a7;
@@ -54,6 +63,9 @@ div.card {
   margin-top: 7px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  width: "270px";
+  height: "165px";
+  object-fit: conver;
 }
 .cardText {
   margin: 15px;
@@ -81,26 +93,41 @@ div.card {
   margin-right: 30px;
 }
 .intro .greeting {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+.intro .mefact {
   font-size: 20px;
   font-weight: 600;
   text-align: center;
 }
-.intro .mefact {
-  font-size: 30px;
-  font-weight: 600;
-  text-align: center;
-}
 header {
-  background-color: #d3d3d3;
-  padding-top: 30px;
+  padding-top: 10px;
   color: black;
   display: flex;
   justify-content: space-between;
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  text-underline: none;
+  align-items: center;
+  border-bottom: 2px solid gray;
+}
+.headerRight > a {
+  margin-right: 10px;
   text-decoration: none;
 }
-
-.headerLink {
-  color: black;
+.headerLeft > a {
+  text-decoration: none;
+}
+.iconGH {
+  font-size: 30px;
+}
+.iconLI {
+  font-size: 30px;
+}
+.iconQ {
+  font-size: 30px;
 }
